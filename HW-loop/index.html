@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>BC50-Loop</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Hw1: Tìm số nguyên dương nhỏ nhất sao cho 1+2+3+....+n > 100000-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            Số Nguyên Dương
+          </div>
+          <div class="card-body">
+            <button id="result" class="btn btn-danger" onclick=number1()>Result </button>
+          </div>
+          <div id="footer1" class="alert alert-danger"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <!-- Hw2: nhập 2 số (x,n) tính tổng: S(n) =x + x^2 + x^3 +...+x^n-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            Tổng số mũ
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <input type="number" id="numberX" placeholder="NumberX" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="number" id="numberN" placeholder="NumberN" class="form-control">
+            </div>
+            <button id="result" class="btn btn-success" onclick=number2()>Result </button>
+          </div>
+          <div id="footer2" class="alert alert-success"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <!-- Hw3: nhập n tính giai thừa 1*2*....n-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            Tính Giai Thừa
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <input type="number" id="number" placeholder="Number" class="form-control">
+            </div>
+            <button id="result" class="btn btn-info" onclick=number3()>Result </button>
+          </div>
+          <div id="footer3" class="alert alert-info"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <!-- Hw4: click button in ra 10 thẻ div,div chẵn background đỏ, div lẻ bg xanh-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            In thẻ div
+          </div>
+          <div class="card-body">
+            <button id="result" class="btn btn-dark" onclick=number4()>Result </button>
+          </div>
+          <div id="footer4" class="alert alert-dark"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <!-- Hw5: nhập số vào input, ấn button thì hiện ra các số nguyên tố từ 1 tới giá trị ô input-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            Xuất ra số nguyên tố
+          </div>
+          <div class="card-body"> 
+            <div class="form-group">
+              <input type="number" id="numberInput" placeholder="Number" class="form-control">
+            </div>           
+            <button id="result" class="btn btn-danger" onclick=number5()>Result </button>
+          </div>
+          <div id="footer5" class="alert alert-danger"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- MAIN JS -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
